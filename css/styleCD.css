@@ -1,0 +1,822 @@
+@charset "utf-8";
+/* CSS Document */
+
+@font-face {
+font-family: 'museosans-100';
+font-style: normal;
+font-weight: normal;
+src: local('museosans-100'), url('../fonts/museosans-100.ttf') format('truetype');
+
+}
+
+@font-face {
+font-family: 'museosans-300';
+font-style: normal;
+font-weight: normal;
+src: local('museosans-300'), url('../fonts/museosans-300.ttf') format('truetype');
+
+}
+
+@font-face {
+font-family: 'museosans-500';
+font-style: normal;
+font-weight: normal;
+src: local('museosans-500'), url('../fonts/museosans-500.ttf') format('truetype');
+
+}
+
+@font-face {
+font-family: 'museosans-700';
+font-style: normal;
+font-weight: normal;
+src: local('museosans-700'), url('../fonts/museosans-700.ttf') format('truetype');
+
+}
+
+@font-face {
+font-family: 'museosans-900';
+font-style: normal;
+font-weight: normal;
+src: local('museosans-900'), url('../fonts/museosans-900.ttf') format('truetype');
+
+}
+
+/*Generals*/
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    word-wrap: break-word;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body, html{
+  font-family: 'museosans-300', sans-serif;
+  padding:0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+section {
+  padding-bottom:80px;
+  margin-top:40px;
+}
+
+a{
+  text-decoration: none;
+}
+
+/*END-Generals*/
+
+
+/*HEADER*/
+
+.navbar {
+  padding:15px 0;
+  text-align: center;
+}
+
+
+.navbar-brand {
+  padding:25px 0;
+}
+
+.navbar-nav {
+  margin-right: 50px;
+}
+
+.navbar-nav .nav-link {
+    padding-right: 1rem !important;
+    padding-left: 1rem !important;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #FFF;
+}
+
+.navbar-toggler {
+    line-height: 1;
+    background-color: transparent;
+    border: 3px solid #fff;
+}
+
+.header-land {
+  padding-top:50px;
+}
+
+.header-land p {
+  color:#FFF;
+  font-family:'museosans-300', sans-serif;
+  font-size: 18px;
+}
+
+
+ .tit-land {
+   font-family:'museosans-700', sans-serif;
+   font-size: 62px;
+   color: #FFF;
+ }
+
+ .header-land .subt-land {
+   font-family:'museosans-700', sans-serif;
+   font-size: 20px;
+   color: #FFF;
+ }
+
+ .img-land {
+   margin-bottom: 50px;
+   text-align: center;
+ }
+
+.bg-gradientHome {
+  background: rgb(10,64,106);
+  background: radial-gradient(circle, rgba(10,64,106,1) 49%, rgba(12,52,85,1) 100%);
+}
+
+.tiendas img {
+  opacity: 0.8;
+  transition: linear 0.1s;
+}
+
+.tiendas img:hover {
+  opacity: 1;
+  -ms-transform: scale(.95,.95);
+  transform: scale(.95,.95);
+}
+
+/*END-HEADER*/
+
+
+/*FOOTER*/
+
+footer{
+  background-color: #02416c;
+  min-height:90px;;
+  bottom: 0;
+  margin:0 auto;
+  width: 100%;
+}
+
+.logo-ft{
+  margin-left: 5%;
+  padding: 30px 0 10px 0;
+}
+
+.wrp-ft{
+   max-width: 570px;
+   margin:0 auto;
+   padding: 30px 20px 20px 20px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.txt-fot{
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'museosans-500',sans-serif;
+  clear: both;
+  padding: 10px 20px;
+  margin: 2px auto 0 auto;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  text-decoration:none !important;
+}
+
+.txt-fot:hover{
+  opacity: 0.8;
+  color: #fff;
+}
+
+.wrp-icons-social{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 5% 10px 10px;
+}
+
+.icons-social{
+  padding: 0 5px;
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+}
+
+.icons-social:hover{
+  padding: 0 5px;
+  opacity: 0.8;
+  transform: scale(0.98,0.98);
+}
+
+/*END-FOOTER*/
+
+
+
+/* DESCARGA */
+
+#descarga {
+  background-color:#FFF;
+  height: auto;
+  border-bottom: 2px #033658;
+  border-style: dashed;
+}
+
+.tit-desc{
+  font-family: 'museosans-300';
+  font-size: 50px;
+  color: #3fa9f5;
+  text-align: center;
+  margin: 50px auto;
+}
+
+.txt-desc{
+  font-family: 'museosans-300';
+  font-size: 22px;
+  color: #999;
+  text-align: center;
+  margin-top:30px;
+}
+
+.step {
+  margin:20px auto;
+}
+
+#descarga h3 {
+  color:#033658;
+  margin:40px 0 0 0;
+}
+
+/*BENEFICIOS*/
+
+#beneficios,
+#beneficios-mobile {
+  background-color:#FFF;
+  height: auto;
+  border-bottom: 2px #033658;
+  border-style: dashed;
+}
+
+.wrp-ben {
+  background-image: url(../images/circuloCeleste.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 40%;
+}
+
+.wrp-ben .telSolo {
+  max-height: 600px;
+  margin-top:50px;
+  padding-bottom:50px;
+}
+
+.tit-ben{
+  font-family: 'museosans-300';
+  font-size: 50px;
+  color: #3fa9f5;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.txt-ben{
+  font-family: 'museosans-300';
+  font-size: 22px;
+  color: #999;
+  text-align: center;
+  margin-top:30px;
+}
+
+.cont-ben {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.cont-ben-der {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.pastilla-ben {
+  background-color: #008bd4;
+  border-color: #008bd4;
+  padding:0 30px;
+  font-family: 'museosans-500';
+  font-size: 23px;
+  color:#FFF;
+  border-radius: 1rem;
+  margin-right: 40px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cont-ben-der .pastilla-ben {
+  margin-right:0;
+  margin-left:40px;
+}
+
+
+.cont-ben img, .cont-ben-der img{
+  width: 72px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cont-ben p  {
+  font-family: 'museosans-500';
+  font-size: 16px;
+  color:#808080;
+}
+
+p.parrafos-der {
+  font-family: 'museosans-500';
+  font-size: 16px;
+  color:#808080;
+}
+
+.marginar-der {
+  text-align: right;
+}
+
+.marg-top {
+  margin-top:80px;
+}
+
+/* Carousel Beneficios para moviles */
+
+.beneficios {
+
+}
+
+.item-beneficios {
+  text-align: center;
+  padding: 20px;
+}
+
+.item-beneficios img {
+  width:140px;
+  margin:0 auto;
+}
+
+.item-beneficios .pastilla-ben {
+  margin:20px auto;
+  font-size: 29px;
+  border-radius: 2rem;
+}
+
+.item-beneficios p {
+  text-align: center;
+  margin:0 auto;
+}
+
+#beneficios-mobile .wrp-ben {
+  background-image: url(../images/circuloCeleste.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 40vw;
+  text-align: center;
+}
+
+#beneficios-mobile .wrp-ben .telSolo {
+  max-height: 500px;
+  padding-bottom: 20px;
+}
+
+
+/*END BENEFICIOS*/
+
+/*COMO USARLA*/
+
+#como-usarla{
+  background-color:#FFF;
+  height: auto;
+  border-bottom: 2px #033658;
+  border-style: dashed;
+}
+
+.tit-uso{
+  font-family: 'museosans-300';
+  font-size: 50px;
+  color: #3fa9f5;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.txt-uso{
+  font-family: 'museosans-300';
+  font-size: 22px;
+  color: #999;
+  text-align: center;
+  margin-top:30px;
+}
+
+.item-tutoriales {
+  padding: 20px;
+  text-align: center;
+}
+
+.item-tutoriales h5 {
+  font-family: 'museosans-700';
+  font-size: 20px;
+  color: #008bd4;
+  display: block;
+  margin: 20px 0;
+}
+
+.item-tutoriales p {
+  font-family: 'museosans-500';
+  font-size: 16px;
+  color: #999;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.tutoriales .slick-dots li,
+.beneficios .slick-dots li {
+  margin: 0 15px;
+}
+
+.tutoriales .slick-dots li.slick-active button:before,
+.beneficios .slick-dots li.slick-active button:before {
+    background-color: #02416c;
+    color:transparent;
+    width: 40px;
+    opacity:1;
+}
+
+.tutoriales .slick-dots li button:before,
+.beneficios .slick-dots li button:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20px;
+    height: 14px;
+    border-radius:7px;
+    opacity: 1;
+    background-color: #dcdfe7;
+    color:transparent;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+#video-modal .modal-dialog {
+      max-width: 800px;
+      margin: 60px auto;
+  }
+
+#video-modal .modal-body {
+  position:relative;
+  padding:0px;
+}
+
+#video-modal .close {
+  position:absolute;
+  right:-30px;
+  top:0;
+  z-index:999;
+  font-size:2rem;
+  font-weight: normal;
+  color:#fff;
+  opacity:1;
+}
+
+/*END COMO USARLA*/
+
+/*ACORDEON FAQ*/
+
+#faq {
+  background-color:#FFF;
+  height: auto;
+  border-bottom: 2px #033658;
+  border-style: dashed;
+}
+
+.tit-faq{
+  font-family: 'museosans-300';
+  font-size: 50px;
+  color: #3fa9f5;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.txt-faq{
+  font-family: 'museosans-300';
+  font-size: 22px;
+  color: #999;
+  text-align: center;
+  margin:40px auto;
+}
+
+#faq img {
+  max-height:500px;
+  margin-top:10%;
+}
+
+#accordion {
+  margin-top:30px;
+}
+
+#accordion .panel {
+  border-radius: 25px;
+  border: 0;
+  margin-top: 10px;
+}
+#accordion a {
+  color: #FFF;
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+#accordion .panel-heading a.collapsed:hover /*,
+#accordion .panel-heading a.collapsed:focus*/ {
+  background-color: #3fa9f5;
+  color: white;
+
+  border-radius:25px;
+}
+#accordion .panel-heading a.collapsed:hover::before,
+#accordion .panel-heading a.collapsed:focus::before {
+  color: white;
+}
+#accordion .panel-heading {
+  padding: 0;
+  border-radius: 0px;
+  text-align: left;
+  background-color: #02416c;
+  border-radius:25px;
+  color: white;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+#accordion .panel-heading a:not(.collapsed) {
+  color: white;
+  background-color: #02416c;
+  transition: all 0.2s ease-in;
+  border-radius:25px;
+}
+
+/* Add Indicator fontawesome icon to the left */
+#accordion .panel-heading .accordion-toggle::before {
+  font-family: 'FontAwesome';
+  content: '\f00d';
+  float: right;
+  color: white;
+  font-weight: lighter;
+  transform: rotate(0deg);
+  transition: all 0.2s ease-in;
+}
+#accordion .panel-heading .accordion-toggle.collapsed::before {
+  color: white;
+  transform: rotate(-135deg);
+  transition: all 0.2s ease-in;
+}
+
+#accordion .panel-body {
+  padding: 20px 25px;
+  border-radius: 25px;
+  /*box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);*/
+}
+
+#accordion .panel-body p {
+  font-family: 'museosans-300';
+  font-size: 16px;
+  color: #808080;
+}
+
+#accordion .panel-heading h4 {
+  font-family: 'museosans-300';
+  font-size: 16px;
+}
+
+/*END ACORDEON FAQ*/
+
+
+/* CONTACTO*/
+
+.tit-cont{
+  font-family: 'museosans-300';
+  font-size: 50px;
+  color: #3fa9f5;
+  text-align: center;
+  margin-top: 50px;
+}
+
+.txt-cont{
+  font-family: 'museosans-300';
+  font-size: 22px;
+  color: #999;
+  text-align: center;
+  margin:40px auto;
+}
+
+#contacto h5 {
+  font-family: 'museosans-700';
+  font-size: 25px;
+  color: #008bd4;
+  display: block;
+  margin-bottom: 20px;
+}
+
+#contacto p {
+  font-family: 'museosans-500';
+  font-size: 18px;
+  color: #999;
+  display: block;
+  margin-bottom: 20px;
+}
+
+#contacto .btn-primary {
+  background-color: #008bd4;
+  border-color: #008bd4;
+  padding:5px 20px;
+  font-family: 'museosans-500';
+  font-size: 22px;
+  color:#FFF;
+  border-radius: 2rem;
+  margin-bottom: 40px;
+}
+
+.wrp-cont {
+  padding:20px 5%;
+}
+
+.wrp-cont img {
+  margin-bottom:30px;
+}
+
+/*END CONTACTO*/
+
+
+/*RESPONSIVE*/
+
+@media screen and (max-width: 1200px){
+  .pastilla-ben {
+    padding: 0 25px;
+    font-size: 18px;
+    margin-right: 30px;
+  }
+
+  .cont-ben-der .pastilla-ben {
+    margin-left:30px;
+  }
+
+  .cont-ben img, .cont-ben-der img {
+    width:62px;
+  }
+
+  .wrp-cont {
+    padding:20px 4%;
+  }
+
+  #contacto .btn-primary {
+    font-size: 20px;
+  }
+
+}
+
+@media screen and (max-width: 1024px){
+
+  .navbar-nav {
+    margin-right: 0;
+  }
+
+  .tit-land {
+    font-size: 42px;
+  }
+
+  .header-land .subt-land {
+    font-size: 16px;
+  }
+
+  .img-land img {
+    transform: scale(.8,.8);
+    -ms-transform: scale(.8,.8);
+    -webkit-transform: scale(.8,.8);
+  }
+  .txt-desc{
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 991px){
+  .lg-invisible {
+      display:none;
+  }
+  .wrp-cont {
+    padding:20px 4%;
+  }
+  #contacto .btn-primary {
+    font-size: 16px;
+    padding:5px 10px;
+  }
+  .wrp-cont img {
+    transform: scale(.8,.8);
+    -ms-transform: scale(.8,.8);
+    -webkit-transform: scale(.8,.8);
+  }
+}
+
+@media screen and (min-width:991px){
+    .sm-invisible {
+      display: none;
+    }
+}
+
+@media screen and (max-width: 769px){
+  .wrp-cont {
+    padding:20px 2%;
+  }
+  .navbar-expand-sm .navbar-nav .nav-link {
+    padding-right: .5rem !important;
+    padding-left: .5rem !important;
+    font-size: 14px;
+  }
+  .tit-desc, .tit-ben, .tit-uso, .tit-faq, .tit-cont {
+    font-size: 50px;
+  }
+  .txt-ben, .txt-uso, .txt-faq, .txt-cont {
+    font-size: 18px;
+  }
+  #contacto p {
+    font-size:16px;
+  }
+  #beneficios-mobile .wrp-ben {
+    background-size: 50vw;
+  }
+  .item-beneficios p {
+    font-family: 'museosans-300';
+    font-size: 22px;
+    color: #999;
+    text-align: center;
+    margin-top:30px;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .xs-invisible {
+    display:none;
+  }
+  .header-land {
+    padding-top:0;
+  }
+}
+
+@media screen and (max-width: 480px){
+  .navbar-expand-sm .navbar-nav .nav-link{
+    font-size: 20px;
+  }
+  .tit-desc, .tit-ben, .tit-uso, .tit-faq, .tit-cont {
+    font-size: 40px;
+  }
+  #beneficios-mobile .wrp-ben {
+    background-size: 90vw;
+  }
+  .wrp-cont {
+    padding:20px 4%;
+  }
+  #contacto .btn-primary {
+    font-size: 16px;
+    padding:5px 10px;
+    display:block;
+    margin:auto;
+  }
+  .wrp-cont img {
+    transform: scale(.7,.7);
+    -ms-transform: scale(.7,.7);
+    -webkit-transform: scale(.7,.7);
+    margin-bottom: 0;
+  }
+  .txt-desc{
+    font-size: 18px;
+    margin-top:10px;
+  }
+
+  .step {
+    margin:20px auto;
+  }
+
+  #descarga h3 {
+    color:#033658;
+    margin:50px 0 0 0;
+  }
+  #descarga img {
+    transform: scale(.8,.8);
+    -ms-transform: scale(.8,.8);
+    -webkit-transform: scale(.8,.8);
+  }
+  .item-beneficios img {
+    width: 110px;
+  }
+  .item-beneficios .pastilla-ben {
+    font-size: 24px;
+  }
+  .item-beneficios p {
+    font-size: 18px;
+  }
+}

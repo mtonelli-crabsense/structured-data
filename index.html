@@ -1,12 +1,737 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-mx">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Credencial Digital OSDE</title>
+	<meta charset="utf-8">
+	<meta content="IE=edge" http-equiv="X-UA-Compatible">
+	<meta content="Descubrí nuestra plataforma con más de 900 descuentos en productos y servicios pensados para ayudar a quienes nos eligen a cuidar su bienestar integral." name="description">
+	<meta content="" name="keywords">
+	<meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+	<!--Default actual version bootstrap
+	<link rel="stylesheet" href="css/bootstrap.css" type="text/css">-->
+  <!-- Latest compiled and minified CSS
+  <link rel="stylesheet" href="css/bootstrap.min-1.css" type="text/css">-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+	<!--General-->
+	<link rel="stylesheet" href="css/styleCD.css">
+
+  <!-- Slider -->
+  <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+  <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
+
+
+	<!--<style type="text/css">
+
+    .slider {
+        width: 100%;
+        margin: 100px auto;
+    }
+
+    .slick-slide {
+      margin: 0px 20px;
+    }
+
+    .slick-slide img {
+      width: 100%;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+      color: black;
+    }
+
+
+    .slick-slide {
+      transition: all ease-in-out .3s;
+      opacity: .2;
+    }
+
+    .slick-active {
+      opacity: .5;
+    }
+
+    .slick-current {
+      opacity: 1;
+    }
+
+    html {
+      scroll-behavior: smooth;
+   }
+
+  </style>-->
+
 </head>
-<body>
-    <h1>Un encabezado</h1>
+
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<header>
+
+  <div class="container-fluid bg-gradientHome">
+    <div class="container">
+    <nav class="navbar navbar-expand-sm navbar-dark">
+      <a class="navbar-brand" href="#">
+        <img src="images/logo-OSDE.png">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="collapsibleNavbar">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#beneficios">Beneficios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#como-usarla">Aprendé a utilizarla</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#faq">Preguntas frecuentes</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contacto">Contactanos</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </div>
+    <div class="container header-land">
+      <div class="row">
+        <div class="col-md-5">
+          <!--<p class="subt-land">Nueva</p>-->
+          <h1 class="tit-land">CREDENCIAL DIGITAL OSDE</h1>
+          <p>Accedé a los servicios de OSDE de una forma práctica, segura y amigable con el medioambiente. Descargá la app, registrate y llevala siempre con vos:</p>
+          <div class="row">
+            <div class="col tiendas">
+              <a href=""><img class="img-fluid" src="images/appleStore.png" alt="Apple Store"></a>
+            </div>
+            <div class="col tiendas">
+              <a href=""><img class="img-fluid" src="images/googlePlay.png" alt="Google Play"></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md img-land">
+          <img class="img-fluid" src="images/mobilesHeader.png" alt="Celulales con Credencial Digital">
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- SECCION COMO DESCARGAR  -->
+<section id="descarga">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="tit-desc">¿Cómo descargar tu Credencial Digital OSDE?</h2>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="images/uno.png" class="step">
+        <p class="txt-desc">Bajá la app: encontrala en el Play Store o en el App Store de tu teléfono como Credencial Digital OSDE.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="images/dos.png" class="step">
+        <p class="txt-desc">Ingresá tu documento y el mail que más uses.</p>
+      </div>
+      <div class="col-md-4 text-center">
+        <img src="images/tres.png" class="step">
+        <p class="txt-desc">Buscá en tu casilla de correo el código de acceso que te enviamos y escribilo en la app para activar la credencial.</p>
+      </div>
+      <div class="col-md-12 text-center">
+        <h3>¡Listo! Ya podés utilizar tu credencial y las de los integrantes de tu familia.</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- SECCION BENEFICIOS -->
+
+	<section id="beneficios" class="lg-invisible">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="tit-ben">Beneficios de una credencial virtual y sustentable</h2>
+          <p class="txt-ben">Ya no hace falta que ocupes lugar en tu billetera con la credencial de plástico para comprar un medicamento, atenderte en una guardia o visitar a tu médico de confianza en su consultorio. Ahora podés acceder a nuestros servicios presentando tu Credencial Digital.
+</p>
+        </div>
+		  </div>
+        <div class="row wrp-ben">
+          <div class="col-sm marg-top">
+            <div class="cont-ben">
+              <div class="pastilla-ben">Es práctica</div>
+              <div><img src="images/icono-practica.png"></div>
+              <div>
+                <p class="marginar-der">La generás y la presentás desde tu celular.</p>
+              </div>
+            </div>
+            <div class="cont-ben" style="margin-right:40px;">
+              <div class="pastilla-ben">Es nacional</div>
+              <div><img src="images/icono-nacional.png"></div>
+              <div>
+                <p class="marginar-der">Es válida en centros médicos, farmacias y consultorios de todo el país.</p>
+              </div>
+            </div>
+            <div class="cont-ben" style="margin-right:10px;">
+              <div class="pastilla-ben">Es segura</div>
+              <div><img src="images/icono-segura.png"></div>
+              <div>
+                <p class="marginar-der">Cuenta con un código de validación que evita que otra persona la use por vos.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm text-center"><img src="images/movilBeneficios-solo.png" class="telSolo fluid-img"></div>
+          <div class="col-sm marg-top">
+            <div class="cont-ben-der" style="margin-bottom:0;">
+              <div><img src="images/icono-definitiva.png"></div>
+              <div class="pastilla-ben">Es definitiva</div>
+              <div>
+                <p class="parrafos-der">No tiene fecha de vencimiento ni necesita ser renovada.</p>
+              </div>
+            </div>
+            <div class="cont-ben-der" style="margin-left:40px;margin-bottom:0">
+              <div><img src="images/icono-ligera.png"></div>
+              <div class="pastilla-ben">Es simple</div>
+              <div>
+                <p class="parrafos-der">Solo requiere conexión a internet para bajar la app y para registrarte por primera vez. Además, consume muy pocos recursos de tu teléfono.</p>
+              </div>
+            </div>
+            <div class="cont-ben-der" style="margin-left:10px;">
+              <div><img src="images/icono-ambiental.png"></div>
+              <div class="pastilla-ben">Es ecológica</div>
+              <div>
+                <p class="parrafos-der">Al ser digital, elimina el uso del plástico.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+	    </div>
+  </section>
+
+  <section id="beneficios-mobile" class="sm-invisible">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="tit-ben">Beneficios de una credencial virtual y sustentable</h2>
+          <p class="txt-ben">Ya no hace falta que ocupes lugar en tu billetera con la credencial de plástico para comprar un medicamento, atenderte en una guardia o visitar a tu médico de confianza en su consultorio. Ahora podés acceder a nuestros servicios presentando tu Credencial Digital.</p>
+        </div>
+        <div class="col-md-12">
+          <div class="beneficios">
+            <div class="item-beneficios">
+              <div><img src="images/icono-practica.png"></div>
+              <div class="pastilla-ben">Es práctica</div>
+              <div>
+                <p class="marginar-der">La generás y la presentás desde tu celular.</p>
+              </div>
+            </div>
+            <div class="item-beneficios">
+              <div><img src="images/icono-nacional.png"></div>
+              <div class="pastilla-ben">Es nacional</div>
+              <div>
+                <p class="marginar-der">Es válida en centros médicos, farmacias y consultorios de todo el país.</p>
+              </div>
+            </div>
+            <div class="item-beneficios">
+              <div><img src="images/icono-segura.png"></div>
+              <div class="pastilla-ben">Es segura</div>
+              <div>
+                <p class="marginar-der">Cuenta con un código de validación que evita que otra persona la use por vos.</p>
+              </div>
+            </div>
+            <div class="item-beneficios">
+              <div><img src="images/icono-definitiva.png"></div>
+              <div class="pastilla-ben">Es definitiva</div>
+              <div>
+                <p class="marginar-der">No tiene fecha de vencimiento ni necesita ser renovada.</p>
+              </div>
+            </div>
+            <div class="item-beneficios">
+              <div><img src="images/icono-ligera.png"></div>
+              <div class="pastilla-ben">Es simple</div>
+              <div>
+                <p class="marginar-der">Solo requiere conexión a internet para bajar la app y para registrarte por primera vez. Además, consume muy pocos recursos de tu teléfono.</p>
+              </div>
+            </div>
+            <div class="item-beneficios">
+              <div><img src="images/icono-ambiental.png"></div>
+              <div class="pastilla-ben">Es ecológica</div>
+              <div>
+                <p class="marginar-der">Al ser digital, elimina el uso del plástico.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 wrp-ben text-center"><img src="images/movilBeneficios-solo.png" class="telSolo fluid-img"></div>
+      </div>
+    </div>
+  </section>
+
+<!-- END SECCION BENEFICIOS -->
+
+<!-- SECCION COMO USARLA -->
+    <section id="como-usarla">
+      <div class="container">
+        <div class="row">
+    			<div class="col-md-12">
+    					<h2 class="tit-uso">Aprendé a utilizar tu credencial digital</h2>
+    					<!--<p class="txt-uso">Lorem ipsum dolor sit amet consectetur adipiscing elit pharetra interdum, cum dapibus ut feugiat
+    risus sociosqu tempor sapien curae et consectetur adipiscing elit phare.</p>-->
+    			</div>
+    		<div class="col-md-12">
+          <div class="tutoriales">
+            <div class="item-tutoriales">
+              <a href="#" class="video-btn" data-toggle="modal" data-target="#video-modal" data-src="https://www.youtube.com/embed/-34_rR-2g50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><img src="images/imgCarousel.jpg" class="img-fluid" alt="Videotutorial"></a>
+              <h5>¿Cómo me registro?</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit pharetra interdum, cum dapibus ut feugiat</p>
+            </div>
+            <div class="item-tutoriales">
+              <a href="#" class="video-btn" data-toggle="modal" data-target="#video-modal" data-src="https://www.youtube.com/embed/-34_rR-2g50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><img src="images/imgCarousel.jpg" class="img-fluid" alt="Videotutorial"></a>
+              <h5>¿Cómo me identifico?</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit pharetra interdum, cum dapibus ut feugiat</p>
+            </div>
+            <div class="item-tutoriales">
+              <a href="#" class="video-btn" data-toggle="modal" data-target="#video-modal" data-src="https://www.youtube.com/embed/-34_rR-2g50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><img src="images/imgCarousel.jpg" class="img-fluid" alt="Videotutorial"></a>
+              <h5>¿Cómo actualizo mi mail?</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit pharetra interdum, cum dapibus ut feugiat</p>
+            </div>
+            <div class="item-tutoriales">
+              <a href="#" class="video-btn" data-toggle="modal" data-target="#video-modal" data-src="https://www.youtube.com/embed/-34_rR-2g50" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><img src="images/imgCarousel.jpg" class="img-fluid" alt="Videotutorial"></a>
+              <h5>¿Cómo sincronizo mi teléfono?</h5>
+              <p>Lorem ipsum dolor sit amet consectetur adipiscing elit pharetra interdum, cum dapibus ut feugiat</p>
+            </div>
+          </div>
+    		</div>
+    	  </div>
+    </div>
+    </section>
+
+<!-- END SECCION COMO USARLA -->
+
+<!-- SECCION FAQ -->
+
+    <section id="faq">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <h2 class="tit-faq">Preguntas frecuentes</h2>
+            <!--<p class="txt-faq">Lorem ipsum dolor sit amet consectetur adipiscing elit pharetra interdum, cum dapibus ut feugiat
+risus sociosqu tempor sapien curae et consectetur adipiscing elit phare.</p>-->
+          </div>
+          <div class="col-md-8">
+            <div id="accordion" class="panel-group">
+              <div class="panel">
+                <div class="panel-heading shadow">
+                <h4 class="panel-title">
+                  <a href="#panelBodyOne" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">¿Cómo activar mi credencial digital?</a>
+                  </h4>
+                </div>
+                <div id="panelBodyOne" class="panel-collapse collapse in">
+                <div class="panel-body shadow">
+                    <p>Solo tenés que bajar la app Credencial Digital OSDE en tu dispositivo, registrarte con tus datos personales y copiar el código de validación que vas a recibir en tu correo electrónico. ¡Y listo! Ya activaste tu credencial virtual y la de tu grupo familiar.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading shadow">
+                <h4 class="panel-title">
+                  <a href="#panelBodyTwo" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Aparte de la credencial digital, ¿necesito algo más para poder usarla?</a>
+                  </h4>
+                </div>
+                <div id="panelBodyTwo" class="panel-collapse collapse">
+                <div class="panel-body shadow">
+                    <p>Deberás presentarla junto con tu documento de identidad en cualquier consultorio, centro médico o farmacia del país.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading shadow">
+                <h4 class="panel-title">
+                  <a href="#panelBodyThree" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">¿Todos los miembros de mi familia pueden bajar la Credencial Digital OSDE?</a>
+                  </h4>
+                </div>
+                <div id="panelBodyThree" class="panel-collapse collapse">
+                <div class="panel-body shadow">
+                    <p>Según su edad, cada miembro del grupo familiar tendrá distintos permisos:</p>
+                    <ul>
+                      <li>Titular y cónyuge o concubino/a: podrán generar su credencial y las del resto de los integrantes de la familia.</li>
+                      <li>Hijo/a mayor de 16 años: solo podrá generar su propia credencial.</li>
+                      <li>Hijos menores de 16 años: no podrán generar su propia credencial.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading shadow">
+                <h4 class="panel-title">
+                  <a href="#panelBodyFour" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">¿La credencial de plástico ya no sirve más?</a>
+                  </h4>
+                </div>
+                <div id="panelBodyFour" class="panel-collapse collapse">
+                <div class="panel-body shadow">
+                    <p>La credencial de plástico sigue funcionando hasta su fecha de vencimiento.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading shadow">
+                <h4 class="panel-title">
+                  <a href="#panelBodyFive" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">¿Cómo se actualizan los datos de la Credencial Digital OSDE?</a>
+                  </h4>
+                </div>
+                <div id="panelBodyFive" class="panel-collapse collapse">
+                <div class="panel-body shadow">
+                    <p>Si se realiza una modificación en tus datos (subís o bajás de plan, solicitás una corrección en tus datos personales o cambia la composición de tu grupo familiar), la actualización en la credencial digital se producirá dentro del día posterior a la realización del trámite.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading shadow">
+                <h4 class="panel-title">
+                  <a href="#panelBodySix" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">¿Puedo acceder a mi credencial virtual desde distintos dispositivos?</a>
+                  </h4>
+                </div>
+                <div id="panelBodySix" class="panel-collapse collapse">
+                <div class="panel-body shadow">
+                    <p>No, solo podés registrarte en la app Credencial Digital OSDE desde un dispositivo a la vez.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading shadow">
+                <h4 class="panel-title">
+                  <a href="#panelBodySeven" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Si desinstalo y vuelvo a instalar la app, ¿debo solicitar un nuevo código de acceso?</a>
+                  </h4>
+                </div>
+                <div id="panelBodySeven" class="panel-collapse collapse">
+                <div class="panel-body shadow">
+                    <p>Sí, ya que al desinstalar la aplicación, se borran todos los datos, incluyendo las credenciales virtuales generadas.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading shadow">
+                <h4 class="panel-title">
+                  <a href="#panelBodyEight" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">¿Qué datos son necesarios para usar mi credencial digital en consultorios, centros médicos o farmacias?</a>
+                  </h4>
+                </div>
+                <div id="panelBodyEight" class="panel-collapse collapse">
+                <div class="panel-body shadow">
+                    <p>Los profesionales están preparados para operar con la Credencial Digital OSDE y precisarán:</p>
+                    <ul>
+                      <li>Tu número de socio.</li>
+                      <li>El código de seguridad de tres dígitos, que se actualiza cada 300 segundos (5 minutos).</li>
+                      <li>Tu documento de identidad.</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading shadow">
+                <h4 class="panel-title">
+                  <a href="#panelBodyNine" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">¿La app Credencial Digital OSDE requiere conexión a internet cada vez que la utilice?</a>
+                  </h4>
+                </div>
+                <div id="panelBodyNine" class="panel-collapse collapse">
+                <div class="panel-body shadow">
+                    <p>No, solo es necesario contar con acceso a la red para registrarte y acceder a tu credencial digital por primera vez. Te recomendamos que ingreses y generes la tuya y la de todo tu grupo familiar ni bien la descargues para evitar inconvenientes al momento de usarla.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading shadow">
+                <h4 class="panel-title">
+                  <a href="#panelBodyTen" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">No puedo acceder a la app, ¿cómo hago para acceder a una credencial provisoria?</a>
+                  </h4>
+                </div>
+                <div id="panelBodyTen" class="panel-collapse collapse">
+                <div class="panel-body shadow">
+                    <p>Ante esa situación, podés generarla en el acto desde tu PC a través de la sección Gestiones Online > Credenciales > Provisoria de nuestra web.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading shadow">
+                <h4 class="panel-title">
+                  <a href="#panelBodyEleven" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">¿En qué dispositivos es posible bajar la app Credencial Digital OSDE?</a>
+                  </h4>
+                </div>
+                <div id="panelBodyEleven" class="panel-collapse collapse">
+                <div class="panel-body shadow">
+                    <p>La app está disponible para dispositivos iOS, versión 11.0 o posterior, y para dispositivos Android con versión 5.1 o posterior.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading shadow">
+                <h4 class="panel-title">
+                  <a href="#panelBodyTwelve" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">No tengo un mail registrado, ¿cómo puedo obtener a mi Credencial Digital OSDE?</a>
+                  </h4>
+                </div>
+                <div id="panelBodyTwelve" class="panel-collapse collapse">
+                <div class="panel-body shadow">
+                    <p>En primer lugar, tendrás que informar tu correo electrónico a través de Gestiones Online > Datos de contacto o por mail a credencialdigital@osde.com.ar. Luego, ingresá a la app Credencial Digital OSDE y seguí los pasos para registrarte.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading shadow">
+                <h4 class="panel-title">
+                  <a href="#panelBodythirteen" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Mi pareja no es socia de OSDE, ¿puede acceder a la credencial de mi hijo?</a>
+                  </h4>
+                </div>
+                <div id="panelBodythirteen" class="panel-collapse collapse">
+                <div class="panel-body shadow">
+                    <p>Por el momento, no. Estamos trabajando en una mejora que va a permitir compartir las credenciales de los integrantes del grupo familiar para que otra persona pueda utilizarla para comprar medicamentos por vos o llevar a tus hijos al médico. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading shadow">
+                <h4 class="panel-title">
+                  <a href="#panelBodyFourteen" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Cuando se actualiza la aplicación, ¿es necesario volver a identificarse para ingresar?</a>
+                  </h4>
+                </div>
+                <div id="panelBodyFourteen" class="panel-collapse collapse">
+                <div class="panel-body shadow">
+                    <p>No, aunque puede ocurrir en forma eventual por motivos de seguridad. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading shadow">
+                <h4 class="panel-title">
+                  <a href="#panelBodyFifteen" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">La aplicación cerró mi sesión y pidió que me identificara para ingresar, ¿es necesario hacerlo?</a>
+                  </h4>
+                </div>
+                <div id="panelBodyFifteen" class="panel-collapse collapse">
+                <div class="panel-body shadow">
+                    <p>Sí, esto puede ocurrir en forma eventual por motivos de seguridad. Tené en cuenta que solo se permite tener instalada la app en un dispositivo a la vez.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading shadow">
+                <h4 class="panel-title">
+                  <a href="#panelBodySixteen" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">Perdí mi teléfono y tenía la credencial generada, ¿cómo hago para darla de baja?</a>
+                  </h4>
+                </div>
+                <div id="panelBodySixteen" class="panel-collapse collapse">
+                <div class="panel-body shadow">
+                    <p>Cuando la descargues y te registres en un nuevo dispositivo, las credenciales digitales del teléfono robado quedarán desactivadas y no podrán visualizarse.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="panel">
+                <div class="panel-heading shadow">
+                <h4 class="panel-title">
+                  <a href="#panelBodySeventeen" class="accordion-toggle collapsed" data-toggle="collapse" data-parent="#accordion">¿Cómo puedo capturar una imagen de la Credencial Digital desde mi teléfono?</a>
+                  </h4>
+                </div>
+                <div id="panelBodySeventeen" class="panel-collapse collapse">
+                <div class="panel-body shadow">
+                    <p>Por cuestiones de seguridad, la aplicación no permite realizar capturas de pantalla de la app Credencial Digital OSDE.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 xs-invisible text-center">
+            <img src="images/movilBeneficios-solo.png" class="img-fluid" alt="Celular con Credencial Digital">
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- END SECCION FAQ -->
+
+<!-- SECCION CONTACTO -->
+
+  <section id="contacto">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+            <h2 class="tit-cont">¿Tenés dudas o consultas? Contactanos</h2>
+            <!--<p class="txt-cont">Lorem ipsum dolor sit amet consectetur adipiscing elit pharetra interdum, cum dapibus ut feugiat
+  risus sociosqu tempor sapien curae et consectetur adipiscing elit phare.</p>-->
+        </div>
+        <div class="col-sm-4 text-center wrp-cont">
+          <img src="images/icono-telefono.png">
+          <!--<h5>Llamanos</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit pharetra interdum, cum dapibus ut feugiat.</p>-->
+          <button type="button" href="tel:08105556733" class="btn btn-primary">0810.555.6733</button>
+        </div>
+        <div class="col-sm-4 text-center wrp-cont" style="padding:20px 0;">
+          <img src="images/icono-mail.png">
+          <!--<h5>Escribinos</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit pharetra interdum, cum dapibus ut feugiat.</p>-->
+          <button type="button" href="mailto:credencialdigital@osde.com.ar" class="btn btn-primary">credencialdigital@osde.com.ar</button>
+        </div>
+        <div class="col-sm-4 text-center wrp-cont">
+          <img src="images/icono-whatsapp.png">
+          <!--<h5>Whatsappeanos</h5>
+          <p>Lorem ipsum dolor sit amet consectetur adipiscing elit pharetra interdum, cum dapibus ut feugiat.</p>-->
+          <button type="button" href="https://api.whatsapp.com/send?phone=5491148729000" class="btn btn-primary">+54911-4872-9000</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- END SECCION CONTACTO -->
+
+<!-- FOOTER -->
+	<footer>
+    <div class="container">
+  		<div class="row">
+  			<div class="col-md-2 col-sm-12">
+  				<img src="images/logo-OSDE-footer.png" class="logo-ft">
+  			</div>
+  			<!--<div class="col-md-8 col-sm-12">
+  				<div class="wrp-ft">
+  					<a href="http://www.osde.com.ar/index.html#!osde-politicas-privacidad.html" target="_blank" class="txt-fot">Políticas de Privacidad</a>
+  					<a href="http://www.osde.com.ar/index.html#!conozca-osde.html" class="txt-fot" target="_blank">Conocé OSDE</a>
+  				</div>
+  			</div>
+  			<div class="col-md-2 col-sm-12">
+  				<div class="wrp-icons-social">
+  					 <a href="https://www.facebook.com/grupoosdeoficial" target="_blank"><img src="images/icon-fb.png" class="icons-social img-responsive"></a>
+  					 <a href="https://www.instagram.com/osde/" target="_blank"><img src="images/icon-instagram.png" class="icons-social img-responsive"></a>
+                       <a href="https://www.linkedin.com/company/osde/" target="_blank"><img src="images/icon-linkedin.png" class="icons-social img-responsive"></a>
+  					 <a href="https://www.youtube.com/user/OSDEBinarioOficial" target="_blank"><img src="images/icon-youtube.png" class="icons-social img-responsive"></a>
+  				</div>
+  			</div>-->
+  		</div>
+    </div>
+	</footer>
+
+<!-- END FOOTER -->
+
+  <!-- MODALS CONTENT -->
+
+  <!-- VIDEO MODAL -->
+
+  <!-- Modal -->
+<div class="modal fade" id="video-modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+
+      <div class="modal-body">
+
+       <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+        <!-- 16:9 aspect ratio -->
+<div class="embed-responsive embed-responsive-16by9">
+  <iframe class="embed-responsive-item" src="" id="video"  allowscriptaccess="always" allow="autoplay"></iframe>
+</div>
+
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script>
+      $('.tutoriales').slick({
+    arrows: false,
+    dots: true,
+    infinite: false,
+    speed: 300,
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    responsive: [
+      {
+        breakpoint: 1024,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          dots: true
+        }
+      },
+      {
+        breakpoint: 600,
+        settings: {
+          slidesToShow: 2,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      }
+      // You can unslick at a given breakpoint now by adding:
+      // settings: "unslick"
+      // instead of a settings object
+    ]
+    });
+  </script>
+
+  <script>
+    $('.beneficios').slick({
+      dots: true,
+      arrows: false,
+      infinite: true,
+      speed: 300,
+      slidesToShow: 1,
+      adaptiveHeight: true
+    });
+</script>
+
+  <script>
+  $(document).ready(function() {
+
+    // Gets the video src from the data-src on each button
+
+    var $videoSrc;
+    $('.video-btn').click(function() {
+        $videoSrc = $(this).data( "src" );
+    });
+    console.log($videoSrc);
+
+
+    // when the modal is opened autoplay it
+    $('#video-modal').on('shown.bs.modal', function (e) {
+
+    // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
+    $("#video").attr('src',$videoSrc + "?autoplay=1&amp;modestbranding=1&amp;showinfo=0" );
+    })
+
+    // stop playing the youtube video when I close the modal
+    $('#video-modal').on('hide.bs.modal', function (e) {
+        // a poor man's stop video
+        $("#video").attr('src',$videoSrc);
+    })
+
+    // document ready
+    });
+  </script>
+
+	<!--<script src="dist/aos.js"></script>
+	<script>
+		AOS.init({
+			easing: 'ease-in-out-sine'
+		});
+	</script>-->
+
+
 </body>
 </html>
