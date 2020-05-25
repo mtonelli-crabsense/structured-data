@@ -71,7 +71,40 @@
    }
 
   </style>-->
-
+  
+  <script type="application/ld+json"> 
+    {
+        "@context": "http://schema.org",
+          "@graph": 
+          [{
+            "@type": "VideoObject",
+            "name": "Titulo del video 1",
+            "description": "Descripción del video 1",
+            "thumbnailUrl": [
+            "https://img.youtube.com/vi/Cj48fr-qlkg/maxresdefault.jpg"       
+            ],
+            "uploadDate": "2020-03-31T08:00:00+08:00",    		 
+            "duration": "PT1M54S", 
+            "contentUrl": "https://www.youtube.com/watch?v=ykyESlqzapU"
+          },
+          {
+          "@type": "MobileApplication",
+          "name": "Credencial Digital OSDE",
+          "operatingSystem": "iOS, ANDROID",
+          "applicationCategory": "https://schema.org/HealthApplication",
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": "4.6",
+            "ratingCount": "8864"
+          },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "ARS"
+          }
+          }]
+    } 
+    </script>
 </head>
 
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
