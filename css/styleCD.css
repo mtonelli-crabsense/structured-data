@@ -134,8 +134,12 @@ textarea, select, input, button {
  }
 
  .img-land {
+   margin-top: -50px;
    margin-bottom: 50px;
    text-align: center;
+   transform: scale(.8);
+   -ms-transform: scale(.8);
+   -webkit-transform: scale(.8);
  }
 
 
@@ -486,7 +490,7 @@ p.parrafos-der {
   text-align: center;
 }
 
-.item-tutoriales h5 {
+.item-tutoriales h3 {
   font-family: 'museosans-700';
   font-size: 20px;
   color: #008bd4;
@@ -665,7 +669,7 @@ p.parrafos-der {
   padding-left: 20px;
 }
 
-#accordion .panel-heading h4 {
+#accordion .panel-heading h3 {
   font-family: 'museosans-300';
   font-size: 16px;
 }
