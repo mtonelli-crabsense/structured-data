@@ -431,22 +431,22 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     		<div class="col-md-12">
           <div class="tutoriales">
             <div class="item-tutoriales">
-              <a href="#" class="video-btn" data-toggle="modal" data-target="#video-modal" data-src="https://www.youtube.com/embed/t0CwWHfWvQ4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen><img src="images/imgCarousel-1.jpg" class="img-fluid" alt="Videotutorial"></a>
+              <a href="#" class="video-btn" data-toggle="modal" data-target="#video-modal" data-src="https://www.youtube.com/embed/t0CwWHfWvQ4?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowFullScreen><img src="images/imgCarousel-1.jpg" class="img-fluid" alt="Videotutorial"></a>
               <h3>¿Cómo me identifico?</h3>
               <p>Ingresá tus datos para asegurarte de que solo vos podés utilizar la credencial.</p>
             </div>
             <div class="item-tutoriales">
-              <a href="#" class="video-btn" data-toggle="modal" data-target="#video-modal" data-src="https://www.youtube.com/embed/c4-o_r5QHrs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><img src="images/imgCarousel-2.jpg" class="img-fluid" alt="Videotutorial"></a>
+              <a href="#" class="video-btn" data-toggle="modal" data-target="#video-modal" data-src="https://www.youtube.com/embed/c4-o_r5QHrs?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><img src="images/imgCarousel-2.jpg" class="img-fluid" alt="Videotutorial"></a>
               <h3>¿Cómo me registro si mi mail no está en el padrón de OSDE?</h3>
               <p>Podés agregar tu correo desde Gestiones Online de nuestra web. Es muy sencillo.</p>
             </div>
             <div class="item-tutoriales">
-              <a href="#" class="video-btn" data-toggle="modal" data-target="#video-modal" data-src="https://www.youtube.com/embed/OYrEn6XsW2M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><img src="images/imgCarousel-3.jpg" class="img-fluid" alt="Videotutorial"></a>
+              <a href="#" class="video-btn" data-toggle="modal" data-target="#video-modal" data-src="https://www.youtube.com/embed/OYrEn6XsW2M?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><img src="images/imgCarousel-3.jpg" class="img-fluid" alt="Videotutorial"></a>
               <h3>¿Cómo actualizo mi mail?</h3>
               <p>Es posible modificar tus datos de contacto en forma fácil y rápida a través de nuestra web.</p>
             </div>
             <div class="item-tutoriales">
-              <a href="#" class="video-btn" data-toggle="modal" data-target="#video-modal" data-src="https://www.youtube.com/embed/AB_x41URWiM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><img src="images/imgCarousel-4.jpg" class="img-fluid" alt="Videotutorial"></a>
+              <a href="#" class="video-btn" data-toggle="modal" data-target="#video-modal" data-src="https://www.youtube.com/embed/AB_x41URWiM?enablejsapi=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen><img src="images/imgCarousel-4.jpg" class="img-fluid" alt="Videotutorial"></a>
               <h3>¿Cómo sincronizo mi teléfono?</h3>
               <p>En caso de que el profesional médico no pueda validar tu credencial, seguí estos pasos para solucionarlo.</p>
             </div>
@@ -862,7 +862,7 @@ $(document).ready(function() {
   $('#video-modal').on('shown.bs.modal', function (e) {
 
   // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
-  $("#video").attr('src',$videoSrc + "?autoplay=1&amp;enablejsapi=1&amp;modestbranding=1&amp;showinfo=0&amp;origin=landing" );
+  $("#video").attr('src',$videoSrc + "&amp;autoplay=1&amp;modestbranding=1&amp;showinfo=0&amp;origin=landing" );
   })
 
   // stop playing the youtube video when I close the modal
