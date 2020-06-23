@@ -864,7 +864,7 @@ $(document).ready(function() {
   $('#video-modal').on('shown.bs.modal', function (e) {
 
   // set the video src to autoplay and not to show related video. Youtube related video is like a box of chocolates... you never know what you're gonna get
-  $("#video").attr('src',$videoSrc + "?enablejsapi=1&autoplay=1&modestbranding=1showinfo=0origin=https://mtonelli-crabsense.github.io/" );
+  $("#video").attr('src',$videoSrc + "?enablejsapi=1&autoplay=1&modestbranding=1showinfo=0" );
   })
 
   // stop playing the youtube video when I close the modal
